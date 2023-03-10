@@ -20,6 +20,7 @@ export function track(target, key) {
     let dep = depsMap.get(key)
     if(!dep) {
         dep = new Set()
+        depsMap.set(key, dep)
     }
     dep.add(activeEffect)
 }
