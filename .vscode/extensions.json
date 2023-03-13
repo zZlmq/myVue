@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "Orta.vscode-jest"
+        "orta.vscode-jest",
+        "ms-ceintl.vscode-language-pack-zh-hans"
     ]
 }
